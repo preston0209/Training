@@ -271,6 +271,7 @@ a{
     color: #1F7A54;
     font-size: 14px;
     align-self: flex-end;
+    opacity: 1;
 }
 
 .nav-bar{
@@ -295,6 +296,8 @@ a{
     justify-content: center;
     margin-right: 0;
     align-self: center;
+    padding-top: 8px;
+    height:49px;
 }
 
 .nav-item>a{
