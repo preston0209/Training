@@ -1,0 +1,274 @@
+body{
+     font-family: 'Quicksand', sans-serif;
+     margin:0;
+     padding:0;
+     background-color: #EEEEEE;
+}
+
+.topnav {
+    background-color: #222222;
+    overflow: hidden;
+    border-bottom: 2px solid #31B9E4;
+    height:56px;
+  }
+
+.header-logo{
+    height:36px;
+    width:134px;
+    margin-top:11px;
+    margin-left:24px;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 488px;
+    height: 580px;
+    margin:52px auto ;
+    border-top: 4px solid #3AC7EC;
+    padding:16px 32px;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0  
+}
+
+.back{
+    margin-top: 7px;
+    height: 32px;
+    width: 23px;
+}
+
+.form-header>h2{
+    margin-top:4px;
+    margin-right: 126px;
+    font-size: 24px;
+}
+
+.radio {
+    display: flex;
+    width:350px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+label{
+    margin-left: 8px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color:#333333;
+    font-weight: bolder;
+}
+
+.radio>div{
+    display: flex;
+    align-items: center;
+}
+
+.radio>div:nth-of-type(2){
+    margin-left: 32px;
+}
+
+.radio-button{
+    width: 20px;
+    height: 24px;
+}
+
+input[name="school-type"]{
+    accent-color: #1F7A54;
+}
+
+.dropdown{
+    color:#666666;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.state-datalist{
+    height: 45px;
+    width:424px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.state-select{
+    border: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12) solid;
+    font-size: 17px;
+    width: 484px;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.state-select:focus{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12)solid;
+}
+
+/* District */
+.district-datalist{
+    height: 45px;
+    width:424px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.district-select{
+    border: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12) solid;
+    font-size: 17px;
+    width: 484px;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.district-select:focus{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12)solid;
+}
+
+.username{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username>input{
+    border: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12) solid;
+    font-size: 16px;
+    width: 484px;
+    height: 24px;
+    margin-top: 5px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.username>input:focus{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12)solid;
+}
+
+
+/* Password */
+
+.password{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password>input{
+    border: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12) solid;
+    font-size: 16px;
+    width: 484px;
+    height: 24px;
+    margin-top: 5px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.password>input:focus{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px rgba(102, 102, 102, 0.12)solid;
+}
+
+a{
+    text-decoration: none;
+    color: #1F7A54;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+a.preview{
+    position: absolute;
+    top: 528px;
+}
+
+input[name="remember"]{
+    accent-color: #1F7A54;
+}
+
+.checkbox{
+    height: 22px;
+    width: 16px;
+}
+
+.check-remember{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.check-remember>label{
+    font-size: 17px;
+}
+
+button.log-in{
+    background-color: #3FD28B;
+    color: #1F2834;
+    font-size: 16px;
+    width: 215px;
+    height: 40px;
+    margin: 32px 140px;
+    text-align: center;
+    border: none;
+    font-weight:bolder;
+    box-shadow: 0px 1px 5px 1px #888888;
+    
+}
+
+
+
+footer {
+    background-color: #E0E1E1;
+    margin-bottom: 0;
+    height:40px;
+  }
+  .vertical-rule{
+    display: inline-block;
+    height: 24px;
+    width: 0px;
+    border:1px solid #0000001F;
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-elements-2>span{
+    display: inline-block;
+    color:#616161;
+    margin-right: 8px;
+}
+
+.footer-logo{
+    height: 24px;
+    width: 90px;
+}
+
+.footer-elements{
+    width: 650px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+

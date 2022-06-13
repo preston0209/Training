@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <img class="header-logo" src="./images/logoheader.svg" alt="Quantum Header Logo">
+        </div>
+    </header>
+    <main class="container">
+        <form action="">
+            <div class="form-header">
+                <img class="back" src="./images/back.svg" alt="back">
+                <h2>Log in with Quantum</h2>
+            </div>
+
+            <div class="radio">
+                <div>
+                    <input class="radio-button" id="district" type='radio' name="school-type"/>
+                    <label for="district">District</label>
+                </div>
+                <div>
+                    <input class="radio-button" id="independent" type='radio' name="school-type"/>
+                    <label for="independent">Independent school</label>
+                </div>               
+            </div>
+
+            <div class="state-datalist">
+                <label class="dropdown">State*</label>
+                    <input list="states" name="myState" class="state-select"/>
+                    <datalist id="states">
+                      <option value="Alabama">
+                      <option value="Ohio">
+                      <option value="Miami">
+                      <option value="Floria">
+                      <option value="New York">
+                    </datalist>
+            </div>
+
+            <div class="district-datalist">
+                <label class="dropdown">District*</label>
+                    <input list="districts" name="myDistrict" class="district-select"/>
+                    <datalist id="districts">
+                      <option value="Alabama School District">
+                      <option value="Miami School District">
+                      <option value="Floria School District">
+                      <option value="Ohio School District">
+                      <option value="New York School District">
+                    </datalist>
+            </div>
+
+            <div class="username">
+                <input type="text" name="username" id="username" placeholder="Username/Email ID*">
+                <a href=""><strong>FORGOT USERNAME?</strong></a>
+            </div>
+
+            <div class="password">
+                <div class="password">
+                    <input type="password" name="password" id="password" placeholder="PASSWORD*">
+                    <a class="preview" href=""><img src="./images/preview.svg" alt="preview"></a>
+                </div>
+                <a href=""><strong>FORGOT PASSWORD?</strong></a>
+            </div>
+
+            <div class="check-remember">
+                <input class="checkbox" id="remember" type="checkbox" name="remember"/>          
+                <label for="remember">Remember Me</label>
+            </div>
+
+            <div class="button-container">
+                <button class="log-in">LOG IN</button>
+            </div>
+        </form>
+    </main>
+    <div class="exta-links" style="
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 258px;
+
+">
+        <div style="margin-right: 8px;"><a href=""><strong>About</strong></a></div>
+        <div style="margin-right: 8px;" class="vertical-rule"></div>
+        <div style="margin-right: 8px;"><a href=""><strong>Contact Us</strong></a></div>
+    </div>
+    <footer class="footer-box">
+        <div class="footer-elements">
+            <img class="footer-logo" src="./images/logofooter.svg" alt="Quantum Footer Logo">
+            <div class="vertical-rule"></div>
+            <div class="footer-elements-2">
+                <span>Copyright &copy; 2020-2021</span>
+                <span><strong>Zeus Systems Pvt. Ltd.</strong></span>
+                <span>All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
