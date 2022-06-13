@@ -210,6 +210,16 @@ h3.course-title{
     font-size: 12px;
 }
 
+.course-content-info{
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.course-eligibility {
+    margin-top: 7px;
+    font-size: 12px;
+}
+
 .course-eligibility>span{
     font-size: 12px;
     color: #666666;
@@ -280,7 +290,7 @@ a{
     width: 100%;
     height: 56px;
     background-color: transparent;
-    background:url('/./images/headerPatternSvg.svg') 100% 100% no-repeat padding-box; 
+    /* background:url('/./images/headerPatternSvg.svg') 100% 100% no-repeat padding-box;  */
     background-size: cover;
     opacity: 0.; 
     background-color: #222222;
@@ -304,6 +314,7 @@ a{
     color: #1F7A54;
     font-size: 16px;
     font-weight: bold;
+    height: 18px;
 }
 div.nav-item{
     padding-top: 12px;
@@ -387,8 +398,12 @@ div.nav-item{
     text-align: center;
   }
 
-  .extra{
+  .course-eligibility>span.extra{
     color:#1F7A54;
+  }
+
+  .disabled{
+    opacity: 0.4;
   }
 
   @media (max-width: 945px) {
