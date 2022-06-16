@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="nav-bar">
+        <div class="topnav logo">
+            <img class="header-logo" src="./images/logoheader.svg" alt="Quantum Header Logo">
+        </div>
+        <div class="navigations" >
+        <div class="nav-item selected collapse">
+            <a class="nav-link" href="">DASHBOARD </a>
+        </div>
+        <div class="nav-item collapse">
+            <a href=""><strong>CONTENT</strong></a>
+        </div>
+        <div class="nav-item collapse">
+            <a href="">USERS</a>
+        </div>
+        <div class="nav-item collapse">
+            <a href="">REPORTS</a>
+        </div>
+        <div class="nav-item collapse">
+            <a href="">ADMIN</a>
+        </div>
+        <div class="nav-item">
+            <a href=""><img class="" src="./images/alerts.svg" alt="alerts"></a>
+            <div class="notif-number">1</div>
+            
+        </div>
+        <div class="nav-item">
+            <a href=""><img class="" src="./images/announcements.svg" alt="announcements"></a>
+            <div class="notif-number">2</div>
+        </div>
+        <div class="user">
+        <a href="">
+            <div class="">
+            </div>
+            <div class="notif-">T</div>
+        </a>
+        </div>
+        <div class="nav-item hamburger">
+            <a href=""><img src="./images/hamburger-menu.svg" alt="hamburger"></a> 
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="dashboard">
+            <div class="courses">   
+                <img class="dashboard-image" src="./images/courses.svg" alt="courses">
+                <span><strong>4</strong>  Courses</span>
+            </div>
+            <div class="classes">
+                <img img class="dashboard-image dashboard-image-classes" src="./images/classes.svg" alt="classes">
+                <span><strong>4</strong>  Classes</span>
+            </div>
+        </div>
+
+        <div class="course-filter">
+            <div class="total-courses">
+                <span>Showing 4 of 4 courses</span>
+            </div>
+            <div class="option-datalist">
+                <div>
+                    <label class="dropdown">Sort By:</label>
+                    <input list="options" name="options" class="option-select"/>
+                    <datalist id="options">
+                      <option value="Course Name">
+                      <option value="Category">
+                      <option value="Author">
+                      <option value="Available">
+                    </datalist>
+                </div>
+                <div class="sort">
+                    <img class="sort-image" src="./images/sort.svg" alt="sort">  
+                </div>
+            </div>
+        </div>
+
+
+        <div class="courses-container" id="courses-container">
+            <div class="course-card">
+                <div class="standard-info">
+                    <div class="course-image">
+                        <img class="course-image" src="./images/imageMask-1.svg" alt="course-image">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-title">
+                            <h3 class="course-title">
+                                Acceleration
+                                <img class="favourite" src="./images/favourite.svg" alt="favourite">
+                            </h3>
+                        </div>
+                        <div class="course-eligibility">
+                            <span>Physics |</span>
+                            <span>Grade 7</span>
+                            <span class="extra"> +2</span>
+                        </div>
+    
+                        <div class="course-content-info">
+                            <span> <strong>4</strong>  Units</span>
+                            <span><strong>18</strong> Lessons</span>
+                            <span><strong>24</strong> Topics</span>
+                        </div>
+    
+                        <div class="option-datalist">
+                            <input list="options-class" name="options-class" class="option-select-class"/></datalist>
+                            <datalist id="options-class">
+                              <option value="Mr Frank's Class A">
+                              <option value="Category">
+                              <option value="Author">
+                              <option value="Available">
+                            
+                        </div>
+    
+                        <div class="course-schedule-info">
+                            <span>50 Students |</span>
+                            <span> 21-Jan-2020 - 21-Aug-2020</span>
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="course-actions">
+                    <div>
+                        <img src="./images/preview.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img  src="./images/managecourse.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img  src="./images/gradesubmissions.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img src="./images/reports.svg" alt="preview">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Course Card-2 -->
+            <div class="course-card">
+                <div class="standard-info">
+                    <div class="course-image">
+                        <img class="course-image" src="./images/imageMask-2.svg" alt="course-image">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-title">
+                            <h3 class="course-title">   
+                                Displacement, Velocity and Speed  
+                            </h3>
+                                <img class="favourite" src="./images/favourite.svg" alt="favourite">
+                        </div>
+                        <div class="course-eligibility">
+                            <span>Physics 2 |</span>
+                            <span>Grade 6</span>
+                            <span class="extra"> + 3</span>
+                        </div>
+    
+                        <div class="course-content-info">
+                            <span> <strong>2</strong>  Units</span>
+                            <span><strong>15</strong> Lessons</span>
+                            <span><strong>20</strong> Topics</span>
+                        </div>
+    
+                        <div class="option-datalist">
+                            <input placeholder="No Classes" list="options-class-b" name="options-class" class="option-select-class"/>
+                            <datalist id="options-class-b">
+                              <option value="Mr Frank's Class B">
+                              <option value="No Classes">
+                              <option value="Author">
+                              <option value="Available">
+                            </datalist>
+                        </div>
+    
+                        <!-- <div class="course-schedule-info">
+                            <span>50 Students |</span>
+                            <span> 21-Jan-2020 - 21-Aug-2020</span>
+                        </div>   -->
+                    </div>
+                </div>
+                
+                <div class="course-actions">
+                    <div>
+                        <img src="./images/preview.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img class="disabled" src="./images/managecourse.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img class="disabled" src="./images/gradesubmissions.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img src="./images/reports.svg" alt="preview">
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- Course Card-3 -->
+            <div class="course-card">
+                <div class="standard-info">
+                    <div class="course-image">
+                        <img class="course-image" src="./images/imageMask.svg" alt="course-image">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-title">
+                            <h3 class="course-title">   
+                                Introduction to Biology: Micro organisms and how they affec...  
+                            </h3>
+                                <img class="favourite" src="./images/favourite.svg" alt="favourite">
+                        </div>
+                        <div class="course-eligibility">
+                            <span>Physics |</span>
+                            <span>Grade 4</span>
+                            <span class="extra"> + 1</span>
+                        </div>
+    
+                        <div class="course-content-info">
+                            <span> <strong>5</strong>  Units</span>
+                            <span><strong>16</strong> Lessons</span>
+                            <span><strong>22</strong> Topics</span>
+                        </div>
+    
+                        <div class="option-datalist">
+                            <input list="options-class-c" name="options-class" class="option-select-class"/>
+                            <datalist id="options-class-c">
+                              <option value="Mr Frank's Class B">
+                              <option value="All Classes">
+                              <option value="Author">
+                              <option value="Available">
+                            </datalist>
+                        </div>
+    
+                        <div class="course-schedule-info">
+                            <span>300 Students </span>
+                            <!-- <span> 21-Jan-2020 - 21-Aug-2020</span> -->
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="course-actions">
+                    <div>
+                        <img src="./images/preview.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img class="disabled" src="./images/managecourse.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img class="disabled" src="./images/gradesubmissions.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img src="./images/reports.svg" alt="preview">
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- Course card 4 -->
+            <div class="course-card">
+                <div class="standard-info">
+                    <div class="course-image">
+                        <img class="course-image" src="./images/imageMask-3.svg" alt="course-image">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-title">
+                            <h3 class="course-title">
+                                Introduction to High School Mathematics
+                                <img class="favourite" src="./images/favourite.svg" alt="favourite">
+                            </h3>
+                        </div>
+                        <div class="course-eligibility">
+                            <span>Mathematics |</span>
+                            <span>Grade 8</span>
+                            <span class="extra"> + 3</span>
+                        </div>
+    
+                        <!-- <div class="course-content-info">
+                            <span> <strong>4</strong>  Units</span>
+                            <span><strong>18</strong> Lessons</span>
+                            <span><strong>24</strong> Topics</span>
+                        </div> -->
+    
+                        <div class="option-datalist">
+                            <input list="options-class-d" name="options-class" class="option-select-class"/>
+                            <datalist id="options-class-d">
+                              <option value="Mr Frank's Class B">
+                              <option value="Category">
+                              <option value="Author">
+                              <option value="Available">
+                            </datalist>
+                        </div>
+    
+                        <div class="course-schedule-info">
+                            <span>44 Students |</span>
+                            <span> 21-Oct-2019 - 20-Oct-2020</span>
+                        </div>  
+
+                    </div>
+                </div>
+                
+                <div class="course-actions">
+                    <div>
+                        <img src="./images/preview.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img  src="./images/managecourse.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img  src="./images/gradesubmissions.svg" alt="preview">
+                    </div>
+                    <div>
+                        <img src="./images/reports.svg" alt="preview">
+                    </div>
+                </div>
+                <div class="expired">
+                    <span>EXPIRED</span>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <div class="exta-links" style="
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 258px;
+
+">
+        <div style="margin-right: 8px;"><a href=""><strong>About</strong></a></div>
+        <div style="margin-right: 8px;" class="vertical-rule"></div>
+        <div style="margin-right: 8px;"><a href=""><strong>Contact Us</strong></a></div>
+    </div>
+    <footer class="footer-box">
+        <div class="footer-elements">
+            <img class="footer-logo" src="./images/logofooter.svg" alt="Quantum Footer Logo">
+            <div class="vertical-rule"></div>
+            <div class="footer-elements-2">
+                <span>Copyright &copy; 2020-2021</span>
+                <span><strong>Zeus Systems Pvt. Ltd.</strong></span>
+                <span>All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
