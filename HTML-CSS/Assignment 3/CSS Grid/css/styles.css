@@ -7,33 +7,6 @@
     border: solid 1px black;
     font-weight: bold;
   }
-  
-  html, body {
-    box-sizing: border-box;
-    background-color: white;
-    height: 100%;
-    padding: 10px;
-    margin: 0px;
-  }
-  
-  .container > .header {
-    /* background-color: #745bdb;	 */
-    background: linear-gradient(to right, #684fd1, #8f7ce6);
-
-  }
-  
-  .container > .content {
-    background: linear-gradient(to bottom right, #6956d5,#3e85ed, #3bd5dc);
-  }
-  
-  .container > .sidebar {
-    background: linear-gradient(to top right, #25a699, #40dcd2);
-  }
-  
-  .container > .footer {
-    background: linear-gradient(to bottom right, #684fd1, #8f7ce6);
-  }
-
   .container {
     height: 100%;
     display: grid;
@@ -70,4 +43,31 @@
 .footer {
     grid-area: f;
 }
+  
+  html, body {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  .container > .header {
+    /* background-color: #745bdb;	 */
+    background: linear-gradient(to right, #684fd1, #8f7ce6);
+
+  }
+  
+  .container > .content {
+    background: linear-gradient(to bottom right, #6956d5,#3e85ed, #3bd5dc);
+  }
+  
+  .container > .sidebar {
+    background: linear-gradient(to top right, #25a699, #40dcd2);
+  }
+  
+  .container > .footer {
+    background: linear-gradient(to bottom right, #684fd1, #8f7ce6);
+  }
+
   

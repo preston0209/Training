@@ -55,6 +55,7 @@ courses.forEach(course=>{
     let img1=document.createElement('img')
     img1.classList.add("course-image")
     img1.setAttribute("src",course.courseImage)
+    img1.setAttribute("alt","course image")
 
     div3.appendChild(img1)
     div2.appendChild(div3)
@@ -77,6 +78,7 @@ courses.forEach(course=>{
         let img2=document.createElement('img')
         img2.classList.add("favourite")
         img2.setAttribute("src",course.starImage)
+        img2.setAttribute("alt","favourite")
 
         h3.appendChild(img2)
     }
@@ -169,26 +171,34 @@ courses.forEach(course=>{
     div10.classList.add("course-actions")
 
     let div11=document.createElement('div')
+    div11.setAttribute("role","button")
     let img3=document.createElement('img')
     img3.setAttribute("src",course.preview)
+    img3.setAttribute("alt","course preview")
     div11.appendChild(img3)
     div10.appendChild(div11)
 
 
     let div12=document.createElement('div')
+    div12.setAttribute("role","button")
     let img4=document.createElement('img')
     img4.setAttribute("src",course.manage)
+    img4.setAttribute("alt","course manage")
     div12.appendChild(img4)
     div10.appendChild(div12)
 
     let div13=document.createElement('div')
+    div13.setAttribute("role","button")
     let img5=document.createElement('img')
+    img5.setAttribute("alt","course grade")
     img5.setAttribute("src",course.grade)
     div13.appendChild(img5)
     div10.appendChild(div13)
 
     let div14=document.createElement('div')
+    div14.setAttribute("role","button")
     let img6=document.createElement('img')
+    img6.setAttribute("alt","course report")
     img6.setAttribute("src",course.report)
     div14.appendChild(img6)
     div10.appendChild(div14)
